@@ -18,7 +18,6 @@ class AgentsHistory < Formula
 
   def install
     bin.install "agents-history"
-    prefix.install "LICENSE" if File.exist?("LICENSE")
     lib.install Dir["lib/*"]
     bin.install_symlink lib/"libonnxruntime.dylib" if OS.mac?
     bin.install_symlink lib/"libonnxruntime.so" if OS.linux?
