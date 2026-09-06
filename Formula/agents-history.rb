@@ -8,12 +8,12 @@ class AgentsHistory < Formula
     depends_on arch: :arm64
 
     url "https://github.com/bricklayor/homebrew-tap/releases/download/v0.1.81/agents-history-darwin-arm64.tar.gz"
-    sha256 "e77758f6b50c0721376264ce0a86d576f436f87f834f4285c5fa2ff9c85669b6"
+    sha256 "a8da0146482edc681b7d9d3596462a3768876be6b1b7ba7dbb9c922a57972559"
   end
 
   on_linux do
     url "https://github.com/bricklayor/homebrew-tap/releases/download/v0.1.81/agents-history-linux-amd64.tar.gz"
-    sha256 "f559a14d6135688292bf58abada628ad50d42b0ef33e82b76cc89b2e1ff61a6f"
+    sha256 "94d24b4911f439893063786edf12a7221dda55a375477004a2954703cefdd014"
   end
 
   def install
