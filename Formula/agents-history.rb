@@ -1,19 +1,19 @@
 class AgentsHistory < Formula
   desc "Fuzzy-search terminal session history for Claude Code, Codex, Grok, and Antigravity"
   homepage "https://github.com/bricklayor/agents-history"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
 
-    url "https://github.com/bricklayor/homebrew-tap/releases/download/v0.3.2/agents-history-darwin-arm64.tar.gz"
-    sha256 "f0740c3bf72ab7c91015788ad0431796e188dae812768f06a5d8c2c1d3d3d6f1"
+    url "https://github.com/bricklayor/homebrew-tap/releases/download/v0.3.3/agents-history-darwin-arm64.tar.gz"
+    sha256 "6e13ac2245a4d99aab3f47c6d54a847aa0381fa745a2c32d4ea3bb85961b67a1"
   end
 
   on_linux do
-    url "https://github.com/bricklayor/homebrew-tap/releases/download/v0.3.2/agents-history-linux-amd64.tar.gz"
-    sha256 "350174e55d570ad0f7c6ebc11dfb488972b465e91474550b00f22f15a208baad"
+    url "https://github.com/bricklayor/homebrew-tap/releases/download/v0.3.3/agents-history-linux-amd64.tar.gz"
+    sha256 "c37d5244da04a4f6980e391b0f9b1841d243f99a70efb8ddf21e82a5476bff1c"
   end
 
   def install
